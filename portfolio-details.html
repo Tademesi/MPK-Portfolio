@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio Details</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="portfolio-details-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+
+      <div class="profile-img">
+        <img
+          src="assets/img/my-profile-img.jpg"
+          alt=""
+          class="img-fluid rounded-circle"
+        />
+      </div>
+
+      <a
+        href="index.html"
+        class="logo d-flex align-items-center justify-content-center"
+      >
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Michael Tadesse</h1>
+      </a>
+
+      <div class="social-links text-center">
+        <a href="" class="github" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="" class="stack-overflow" target="_blank">
+          <i class="bi bi-stack-overflow"></i>
+        </a>
+        <a href="" class="frontend-mentor" target="_blank">
+          <i class="bi bi-code-slash"></i>
+        </a>
+        <a href="" class="gmail" target="_blank">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+
+        <a href="#" class="linkedin">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="index.html#hero"
+              ><i class="bi bi-house navicon"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="index.html#about"
+              ><i class="bi bi-person navicon"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="index.html#resume"
+              ><i class="bi bi-file-earmark-text navicon"></i> Resume</a
+            >
+          </li>
+          <li>
+            <a href="index.html#portfolio"
+              ><i class="bi bi-images navicon"></i> Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="index.html#certificates"
+              ><i class="bi bi-award navicon"></i> Certificates</a
+            >
+          </li>
+          <li>
+            <a href="index.html#services"
+              ><i class="bi bi-hdd-stack navicon"></i> Services</a
+            >
+          </li>
+          <li>
+            <a href="index.html#contact"
+              ><i class="bi bi-envelope navicon"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title dark-background">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center"
+        >
+          <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Portfolio Details</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
+
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide" data-index="0">
+                    <img
+                      src="assets/img/portfolio/IMG-20250623-WA0198.jpg"
+                      alt="Apple React Home"
+                    />
+                  </div>
+                  <div class="swiper-slide" data-index="1">
+                    <img
+                      src="assets/img/portfolio/IMG-20250623-WA0199.jpg"
+                      alt="Apple Bootstrap"
+                    />
+                  </div>
+                  <div class="swiper-slide" data-index="2">
+                    <img
+                      src="assets/img/portfolio/IMG-20250623-WA0200.jpg"
+                      alt="Evangadi Forum"
+                    />
+                  </div>
+                  <div class="swiper-slide" data-index="3">
+                    <img
+                      src="assets/img/portfolio/IMG-20250623-WA0201.jpg"
+                      alt="Netflix Clone"
+                    />
+                  </div>
+                  <div class="swiper-slide" data-index="4">
+                    <img
+                      src="assets/img/portfolio/IMG-20250623-WA0202.jpg"
+                      alt="Amazon Clone"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-details-info-group">
+                <!-- Apple React -->
+                <div class="portfolio-info-desc" data-index="0">
+                  <div class="portfolio-info">
+                    <h3>Apple (React) Project Info</h3>
+                    <ul>
+                      <li><strong>Category</strong>: Website</li>
+                      <li>
+                        <strong>Tech Stack</strong>: React, Node.js, Bootstrap
+                      </li>
+
+                      <li>
+                        <strong>Project URL</strong>:
+                        <a href="https://mpkreactapp13.netlify.app/"
+                          >Live Demo</a
+                        >
+                      </li>
+                      <li>
+                        <strong>Project repo</strong>:
+                        <a
+                          href="https://github.com/MPKDev-Codebeat13/Apple-react"
+                          >Live Repo</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portfolio-description">
+                    <h2>Apple Website Clone (React)</h2>
+                    <p>
+                      A pixel-perfect clone of the Apple homepage built using
+                      React and styled with Bootstrap. This project showcases
+                      responsive layouts, reusable components, and smooth user
+                      interaction — all inspired by Apple’s clean and elegant
+                      UI.
+                    </p>
+                  </div>
+                </div>
+                <!-- Apple Bootstrap -->
+                <div
+                  class="portfolio-info-desc"
+                  data-index="1"
+                  style="display: none"
+                >
+                  <div class="portfolio-info">
+                    <h3>Apple (Bootstrap) Project Info</h3>
+                    <ul>
+                      <li><strong>Category</strong>: Website</li>
+                      <li><strong>Tech Stack</strong>: Bootstrap</li>
+
+                      <li>
+                        <strong>Project URL</strong>:
+                        <a href="https://mpkapp13.netlify.app/">Live Demo</a>
+                      </li>
+                      <li>
+                        <strong>Project repo</strong>:
+                        <a
+                          href="https://github.com/MPKDev-Codebeat13/Apple-Bootstrap"
+                          >Live Repo</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portfolio-description">
+                    <h2>Apple Website Clone (Bootstrap)</h2>
+                    <p>
+                      A stylish Apple homepage recreation using only HTML, CSS,
+                      and Bootstrap. This project highlights my front-end design
+                      skills and responsive layout building with Bootstrap’s
+                      grid system and components.
+                    </p>
+                  </div>
+                </div>
+                <!-- Evangadi Forum -->
+                <div
+                  class="portfolio-info-desc"
+                  data-index="2"
+                  style="display: none"
+                >
+                  <div class="portfolio-info">
+                    <h3>Evangadi Forum Project Info</h3>
+                    <ul>
+                      <li><strong>Category</strong>: Web App</li>
+                      <li>
+                        <strong>Tech Stack</strong>: React, Node.js, MySQL
+                      </li>
+
+                      <li>
+                        <strong>Project URL</strong>:
+                        <a href="https://mpk13.evangadiforum.com">Live Demo</a>
+                      </li>
+                      <li>
+                        <strong>Project repo</strong>:
+                        <a
+                          href="https://github.com/MPKDev-Codebeat13/Evangadi-forum"
+                          >Live Repo</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portfolio-description">
+                    <h2>Evangadi Forum Web App</h2>
+                    <p>
+                      A full-stack community forum app built with React,
+                      Node.js, and MySQL. Users can register, log in, and
+                      participate in forum discussions — built with real backend
+                      logic, form validation, and database integration.
+                    </p>
+                  </div>
+                </div>
+                <!-- Netflix Clone -->
+                <div
+                  class="portfolio-info-desc"
+                  data-index="3"
+                  style="display: none"
+                >
+                  <div class="portfolio-info">
+                    <h3>Netflix Clone Project Info</h3>
+                    <ul>
+                      <li><strong>Category</strong>: Web App</li>
+                      <li><strong>Tech Stack</strong>: React, Node.js</li>
+                      <li>
+                        <strong>Project URL</strong>:
+                        <a href="https://mpknet13.netlify.app/">Live Demo</a>
+                      </li>
+                      <li>
+                        <strong>Project repo</strong>:
+                        <a
+                          href="https://github.com/MPKDev-Codebeat13/Netflix-Clone-2025"
+                          >Live Repo</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portfolio-description">
+                    <h2>Netflix Clone Web App</h2>
+                    <p>
+                      A Netflix-style movie streaming UI built using React and
+                      powered by the TMDB API. Features include horizontal
+                      scrolling carousels, trailer previews, and dynamic content
+                      rendering — inspired by the real Netflix experience.
+                    </p>
+                  </div>
+                </div>
+                <!-- Amazon Clone -->
+                <div
+                  class="portfolio-info-desc"
+                  data-index="4"
+                  style="display: none"
+                >
+                  <div class="portfolio-info">
+                    <h3>Amazon Clone Project Info</h3>
+                    <ul>
+                      <li><strong>Category</strong>: Web App</li>
+                      <li><strong>Tech Stack</strong>: React, Node.js</li>
+                      <li>
+                        <strong>Project URL</strong>:
+                        <a href="https://amazon-mpk.netlify.app">Live Demo</a>
+                      </li>
+                      <li>
+                        <strong>Project repo</strong>:
+                        <a
+                          href="https://github.com/MPKDev-Codebeat13/Amazon-Clone-2025-Frontend"
+                          >Live Repo</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portfolio-description">
+                    <h2>Amazon Clone Web App</h2>
+                    <p>
+                      A fully functional Amazon-style shopping site built using
+                      React and Node.js. Includes product listing, cart system,
+                      user login, and mock checkout — designed to showcase
+                      dynamic components and app architecture.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Details Section -->
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container">
+        <div class="copyright text-center">
+          <p>
+            © <span>Copyright</span>
+            <strong class="px-1 sitename">iPortfolio</strong>
+            <span>All Rights Reserved</span>
+          </p>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+      // Sync details with Swiper slide
+      document.addEventListener('DOMContentLoaded', function () {
+        var swiperEl = document.querySelector(
+          '.portfolio-details-slider.swiper'
+        )
+        if (!swiperEl) return
+        var infoBlocks = document.querySelectorAll('.portfolio-info-desc')
+        function showInfo(index) {
+          infoBlocks.forEach(function (block) {
+            block.style.display =
+              block.getAttribute('data-index') == index ? '' : 'none'
+          })
+        }
+        function setupSync() {
+          if (!swiperEl.swiper) {
+            setTimeout(setupSync, 100)
+            return
+          }
+          swiperEl.swiper.on('slideChange', function () {
+            showInfo(swiperEl.swiper.realIndex)
+          })
+          showInfo(swiperEl.swiper.realIndex)
+        }
+        setupSync()
+      })
+    </script>
+  </body>
+</html>
